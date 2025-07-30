@@ -1,44 +1,63 @@
-# Videos-React
+# 🎥 Videos-React
 
-## What is the use of this Repo
+## 📌 Project Overview
 
-This Project is a Simple ReactJS Project which demonstrates the following
+This is a **Simple ReactJS Project** that demonstrates:
 
-Search Youtube videos Component (Used YouTube search API- Credentials key required)
+- 🔍 A YouTube video search component (uses **YouTube Data API v3**, API key required)
+- ⚛️ React components and props usage
+- 🧩 A template you can extend into a larger project
 
-The project Template can be used to build bigger projects
+---
 
-## Prerequisites
+## 🛠 Prerequisites
 
-### Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+- Node.js
+- npm
+- Basic React knowledge
+- React Bootstrap
 
-### Install create-react-app
-Install the create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
+Install the React app tool globally if needed:
 
 ```bash
 npm install -g create-react-app
 ```
-## Cloning and Running the Application in the local
+---
 
-Clone the project into a local
-Install all the npm packages. <br/>
-Go into the project folder and type the following command to install all npm packages
+## 📥 Clone and Run Locally
+
+Follow these steps to run the app on your local machine:
+
+1. **Clone the Repository**:
+
+```bash
+git clone https://github.com/your-username/Videos-React.git
+cd Videos-React
+```
+
+2. **Install Dependencies**:
 
 ```bash
 npm install
 ```
-To run the application Type the following command
+3. **Start the Development Server**:
 
 ```bash
 npm start
 ```
-The Application Runs on **localhost:3000**
-## Resources
+This will launch the app in your browser at 👉 `http://localhost:3000`
 
-**How to use Youtube API**: (https://medium.com/swlh/how-to-get-youtubes-api-key-7c28b59b1154) <br/>
+## 🔑 YouTube API Key Setup
+To use the search feature, you must set up a YouTube Data API v3 key:
 
-**create-react-app**: [create-react-app](https://github.com/facebook/create-react-app)<br/>
+- Go to the Google Cloud Console
+- Create/select a project
+- Enable YouTube Data API v3
+- Generate an API key under: APIs & Services > Credentials > Create Credentials > API key
 
+Add your key in the source code where required (e.g., .env file or API call config)
 
-**ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+📚 Resources
+- [React Documentation](https://reactjs.org/)
+- [React Bootstrap Docs](https://react-bootstrap.github.io/)
+- [YouTube API Documentation](https://developers.google.com/youtube/v3/docs)
